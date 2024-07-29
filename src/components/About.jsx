@@ -24,6 +24,7 @@ const About = () => {
                     est nobis dolor porro asperiores odio eveniet quod cupiditate?
                     Voluptatum neque iste minima.
                 </p>
+                
             </div>
         </div>
     </div>
