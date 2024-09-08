@@ -10,7 +10,7 @@ const Home = () => {
             <div>
                 <h2 className = "text-4xl sm:text-7xl font-bold">I'm an Aspiring Software Engineer</h2>
 
-                <p className = "text-gray-500 py-6 max-w-md">I am a student at RU looking to gain experience in building and designing software. 
+                <p className = "text-gray-400 py-6 max-w-md">I am a student at RU looking to gain experience in building and designing software. 
                     I am interested in web development technologies
                      like React, Tailwind CSS, and JavaScript.</p>
                 <div>
@@ -24,7 +24,7 @@ const Home = () => {
             </div>
 
             <div>
-                <img src = {HeroImage} alt = "toy poodle" className = "rounded-2xl mx-auto w-2/3 md:w-4/5"></img>
+                <img src = {HeroImage} alt = "toy poodle" className = "rounded-2xl mx-auto w-2/3 md:w-4/5 h-auto max-h-[1000px]"></img>
             </div>
         </div>
     </div>

@@ -9,20 +9,16 @@ const About = () => {
                     About
                 </p>
 
-                <p className = "text-xl mt-20">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Iste itaque omnis esse iusto, repellat, cum sit accusamus, 
-                    est nobis dolor porro asperiores odio eveniet quod cupiditate?
-                    Voluptatum neque iste minima.
-                </p>
+                <p className = "text-xl text-gray-400 mt-20">
+                Hi, my name is Kevin Wong, and I'm currently studying Computer Science at RU. 
+                I am passionate about working in the tech industry and actively seeking internship opportunities in software development or data analytics. 
+                 </p>
 
                 <br/>
 
-                <p className = "text-xl">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Iste itaque omnis esse iusto, repellat, cum sit accusamus, 
-                    est nobis dolor porro asperiores odio eveniet quod cupiditate?
-                    Voluptatum neque iste minima.
+                <p className = "text-xl text-gray-400">
+                With experience in technologies such as Python, Java, JavaScript, SQL, C, etc. and frameworks like React and Next.js,
+                I am eager to apply my skills and contribute to innovative projects.
                 </p>
                 
             </div>

@@ -7,7 +7,7 @@ const Contact = () => {
             <div className = "pt-8">
                 <p className = "text-4xl inline font-bold border-b-4 border-gray-500">Contact</p>
 
-                <p className = "py-6">Submit the form below</p>
+                <p className = "py-6 text-gray-400">Submit the form below</p>
 
             </div>
                 <div className = "flex items-center justify-center">
