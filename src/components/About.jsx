@@ -1,11 +1,26 @@
 import React from 'react'
-import { useState } from 'react'
+// import { useState, useEffect } from 'react'
 
 const About = () => {
-  
-  const [sprite, setSprite] = useState('Kokushibo')
+  // const charId = '1'
+  // const [imgSprite, setImgSprite] = useState('')
 
+  // useEffect(() => {
+  //   const fetchData = async (charId) => {
+  //     const response = await fetch(`https://www.demonslayer-api.com/api/v1/characters?id=${charId}`)
   
+  //     if (!response.ok) {
+  //       throw new Error("Could not fetch")
+  //     }
+  
+  //     const data = await response.json()
+  //     const imgSprite = data[0].img
+  //     setImgSprite(imgSprite)
+   
+  //   }
+  //   fetchData(charId)
+  // }, [charId])
+ 
 
   return (
     <div name = "about" className = "w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white">
@@ -28,8 +43,8 @@ const About = () => {
                 </p>
                 
             </div>
-
-        </div>
+             
+            </div>
     </div>
   )
 }
