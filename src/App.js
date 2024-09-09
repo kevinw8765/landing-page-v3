@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
+import Pokemon from "./components/Pokemon";
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       <Portfolio/>
       <Experience/>
       <Contact/>
-      
+      <Pokemon/>
       <SocialLinks/>
     </div>
   );

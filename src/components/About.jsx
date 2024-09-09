@@ -22,6 +22,8 @@ const About = () => {
                 </p>
                 
             </div>
+
+            <img src=''/>
         </div>
     </div>
   )

@@ -27,13 +27,17 @@ const NavBar = () => {
             id: 5,
             link: 'contact'
         },
+        {
+            id: 6,
+            link: 'pokemon'
+        }
     ]
   return (
 
     <div className = "flex justify-between items-center w-full h-20 text-white fixed bg-gradient-to-r from-black bg-gray-500 to-gray-200 px-4">
         <div>
             <h1 className = "text-5xl font-signature ml-2">
-                Kevin
+                Kevin Wong
             </h1>
         </div>
 
