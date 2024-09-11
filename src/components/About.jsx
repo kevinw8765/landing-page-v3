@@ -24,7 +24,7 @@ const About = () => {
                 With experience in technologies such as Python, Java, JavaScript, SQL, C, etc. and frameworks like React and Next.js,
                 I am eager to apply my skills and contribute to innovative projects.
                 </p>
-                <img src = {scarletknight} alt = "Rutgers" className="mx-auto max-h-[500px] max-w-[500px] mt-10"/>
+                <img src = {scarletknight} alt = "Rutgers" className="mx-auto max-h-[500px] max-w-[500px] mt-10 rounded-2xl"/>
 
             </div>
              

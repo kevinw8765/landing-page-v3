@@ -34,7 +34,7 @@ const NavBar = () => {
     ]
   return (
 
-    <div className = "flex justify-between items-center w-full h-20 text-white fixed bg-gradient-to-r bg-white bg-opacity-50 rounded-br-full rounded-bl-full px-10">
+    <div className = "flex justify-between items-center w-full h-20 text-white fixed bg-gradient-to-r bg-white bg-opacity-40 rounded-br-full rounded-bl-full px-10">
         <div>
             <h1 className = "text-5xl font-signature ml-2">
                 <Link to = {links[0].link} smooth duration = {500}><img src = {kevin}  alt = "Kevin Wong" className='h-1/2 w-1/2 cursor-pointer'/></Link>
@@ -49,7 +49,7 @@ const NavBar = () => {
             ))}
         </ul>
         
-        <div onClick={() => setNav(!nav)} className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden">
+        <div onClick={() => setNav(!nav)} className="cursor-pointer pr-4 z-10 text-gray-800 md:hidden">
             {nav ? <FaTimes size = {30}/> : <FaBars size = {30}/>}
         </div>
 
