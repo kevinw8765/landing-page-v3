@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import {Link} from 'react-scroll'
-
+import kevin from '../assets/kevinwong.png'
 
 const NavBar = () => {
     const [nav, setNav] = useState(false);
@@ -34,10 +34,10 @@ const NavBar = () => {
     ]
   return (
 
-    <div className = "flex justify-between items-center w-full h-20 text-white fixed bg-gradient-to-r from-black bg-gray-500 to-gray-200 px-4">
+    <div className = "flex justify-between items-center w-full h-20 text-white fixed bg-gradient-to-r bg-blue-400 rounded-br-full rounded-bl-full px-10">
         <div>
             <h1 className = "text-5xl font-signature ml-2">
-                Kevin Wong
+                <img src = {kevin} alt = "Kevin Wong" className='h-1/2 w-1/2'/>
             </h1>
         </div>
 

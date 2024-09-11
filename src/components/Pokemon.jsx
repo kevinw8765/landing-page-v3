@@ -81,11 +81,11 @@ const Pokemon = () => {
   }
   
   return (
-    <div name = "pokemon" className='h-screen w-full bg-gradient-to-b from-gray-800 to-black text-white'>
+    <div name = "pokemon" className='min-h-screen w-full bg-gradient-to-b from-gray-900 to-black text-white'>
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
 
             <div>
-                <p className='text-4xl font-bold'>My Favorite Pokemon</p>
+                <p className='text-4xl font-bold border-b-4 inline border-gray-500'>My Favorite Pokemon</p>
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
                 {favPokemon.map((poke) => (
@@ -98,9 +98,9 @@ const Pokemon = () => {
                 ))}
 
             </div>
-            <form onSubmit={handleSubmit} className = "flex flex-col justify-center items-center mt-10">
+            <form onSubmit={handleSubmit} className = "flex flex-col justify-center items-center mt-10 gap-3">
                 <input type = "text" placeholder='Enter a pokemon' value = {pokemon} onChange = {(e) => setPokemon(e.target.value)} className='p-4 rounded w-1/3 h-1/2 text-center text-black'/>
-                <button type = "submit" className = "p-4 rounded bg-blue-400 w-1/3 h-1/2">Add a Pokemon</button>
+                <button type = "submit" className = "p-4 rounded bg-blue-400 w-1/5 h-1/2">Add a Pokemon</button>
             </form>
             
         </div>

@@ -3,14 +3,19 @@ import HeroImage from "../assets/heroImage.png"
 import { FaArrowRight } from "react-icons/fa";
 import {Link} from 'react-scroll'
 
+
+
 const Home = () => {
+   
   return (
-    <div name = "home" className = "pt-16 h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white">
+    <div name = "home" className = "pt-16 h-screen w-full bg-gradient-to-b from-black via-black to-gray-900 text-white">
         <div className = "max-w-screen-lg mx-auto  flex flex-col items-center h-full justify-center px-4 md:flex-row">
             <div>
-                <h2 className = "text-4xl sm:text-7xl font-bold">I'm an Aspiring Software Engineer</h2>
-
-                <p className = "text-gray-400 py-6 max-w-md">I am a student at RU looking to gain experience in building and designing software. 
+        
+                <h2 className = "text-4xl text-rotate sm:text-7xl font-bold">I'm an Aspiring Software Engineer</h2>
+        
+ 
+                 <p className = "text-gray-400 py-6 max-w-md">I am a student at Rutgers University looking to gain experience in building and designing software. 
                     I am interested in web development technologies
                      like React, Tailwind CSS, and JavaScript.</p>
                 <div>
@@ -31,4 +36,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;
