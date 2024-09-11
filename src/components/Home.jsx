@@ -1,12 +1,54 @@
 import React from 'react'
 import HeroImage from "../assets/heroImage.png"
+import kokushibo from "../assets/kokushibo.png"
+import domo from "../assets/domo.jpeg"
+import demonslayer from "../assets/demonslayer.jpeg"
+import noodles from "../assets/noodles.jpeg"
+
+
 import { FaArrowRight } from "react-icons/fa";
 import {Link} from 'react-scroll'
-
+import {useState} from 'react'
+import {BsChevronCompactLeft, BsChevronCompactRight} from 'react-icons/bs'
+import {RxDotFilled} from 'react-icons/rx'
 
 
 const Home = () => {
-   
+  const slides = [
+    {
+        src: HeroImage
+    },
+    {
+        src: kokushibo
+    },
+    {
+        src: domo
+    },
+    {
+        src: noodles
+    },
+    {
+        src: demonslayer
+    },
+  ]
+
+  const [currentIndex, setCurrentIndex] = useState(0)
+
+  const prevSlide = () => {
+    const isFirstSlide = currentIndex === 0
+    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1
+    setCurrentIndex(newIndex)
+  }
+  const nextSlide = () => {
+    const isLastSlide = currentIndex === slides.length - 1
+    const newIndex = isLastSlide ? 0 : currentIndex + 1
+    setCurrentIndex(newIndex)
+  }
+
+  const goToSlide = (slideIndex) => {
+    setCurrentIndex(slideIndex)
+  }
+
   return (
     <div name = "home" className = "pt-16 h-screen w-full bg-gradient-to-b from-black via-black to-gray-900 text-white">
         <div className = "max-w-screen-lg mx-auto  flex flex-col items-center h-full justify-center px-4 md:flex-row gap-3">
@@ -27,9 +69,26 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
+            {/* Carousel */}
+            <div className='rounded-2xl relative'>
 
-            <div>
-                <img src = {HeroImage} alt = "toy poodle" className = "rounded-2xl mx-auto w-2/3 md:w-4/5 h-auto max-h-[1000px]"></img>
+                <img src = {slides[currentIndex].src} alt = "toy poodle" className = "duration-500 rounded-2xl mx-auto w-2/3 md:w-4/5 h-auto max-h-[1000px]"></img>
+                {/* Left Arrow */}
+                <div  className=' absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+                    <BsChevronCompactLeft onClick={prevSlide} size={30}/>
+                </div>
+                {/* Right Arrow */}
+                <div className='absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+                    <BsChevronCompactRight onClick={nextSlide} size={30}/>
+                </div>
+
+                <div className='flex top-4 justify-center py-2'>
+                    {slides.map((slide, slideIndex) => (
+                        <div key = {slideIndex} onClick = {() => goToSlide(slideIndex)} className='text-2xl cursor-pointer'>
+                            <RxDotFilled/>
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     </div>
