@@ -10,8 +10,9 @@ import python3 from "../assets/python.png"
 import pytorch from "../assets/pytorch.png"
 import reactImage from "../assets/react.png"
 import tailwind from "../assets/tailwind.png"
-
-
+import sql from "../assets/sqlite3.png"
+import swiftui from "../assets/swiftui.png"
+import lua from "../assets/lua.png"
 
 const Experience = () => {
 
@@ -82,6 +83,25 @@ const Experience = () => {
         title: "Tailwind",
         style: "shadow-blue-300"
     },
+    {
+        id: 12,
+        src: sql,
+        title: "SQL",
+        style: "shadow-blue-300"
+    },
+    {
+        id: 13,
+        src: swiftui,
+        title: "SwiftUI",
+        style: "shadow-blue-300"
+    },
+    {
+        id: 14,
+        src: lua,
+        title: "Lua",
+        style: "shadow-blue-300"
+    },
+    
     
   ]
   return (
@@ -98,7 +118,7 @@ const Experience = () => {
             <div className = "w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
                 {techs.map(({id, src, title, style}) => (
                     <div key = {id} className = {`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-                        <img src = {src} alt = "" className = "w-20 mx-auto"/>
+                        <img src = {src} alt = "" className = "w-20 h-20 mx-auto"/>
 
                         <p className = "mt-4">{title}</p>
                     </div>
