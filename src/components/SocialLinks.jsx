@@ -14,7 +14,7 @@ const SocialLinks = () => {
             LinkedIn <FaLinkedin size={30}/>
             </>   
         ),
-        href: 'https://linkedin.com',
+        href: 'https://www.linkedin.com/in/kevin-wong219',
         style: 'rounded-tr-md'
     },
     {
@@ -24,7 +24,7 @@ const SocialLinks = () => {
             GitHub <FaGithub size={30}/>
             </>   
         ),
-        href: 'https://github.com',
+        href: 'https://github.com/kevinw8765',
     },
     {
         id: 3,
