@@ -98,9 +98,9 @@ const Pokemon = () => {
                 ))}
 
             </div>
-            <form onSubmit={handleSubmit} className = "flex flex-col justify-center items-center mt-10 gap-3">
+            <form onSubmit={handleSubmit} className = "flex flex-col justify-center items-center mt-10 gap-5">
                 <input type = "text" placeholder='Enter a pokemon' value = {pokemon} onChange = {(e) => setPokemon(e.target.value)} className='p-4 rounded w-1/3 h-1/2 text-center text-black'/>
-                <button type = "submit" className = "p-4 rounded bg-blue-400 w-1/5 h-1/2">Add a Pokemon</button>
+                <button type = "submit" className = "p-4 rounded-md hover:scale-110 duration-300 bg-gradient-to-b from-transparent to-cyan-500 w-1/5 h-1/2">Add a Pokemon</button>
             </form>
             
         </div>
