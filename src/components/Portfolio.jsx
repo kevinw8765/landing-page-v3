@@ -11,8 +11,8 @@ const Portfolio = () => {
         id: 1,
         title: 'Finance App',
         src: finance,
-        href: 'https://github.com/kevinw8765',
-        finished: false
+        href: 'https://github.com/kevinw8765/finance-app',
+        finished: true
     },
     {
         id: 2,
