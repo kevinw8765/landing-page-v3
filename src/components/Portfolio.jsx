@@ -12,7 +12,8 @@ const Portfolio = () => {
         title: 'Finance App',
         src: finance,
         href: 'https://github.com/kevinw8765/finance-app',
-        finished: true
+        finished: true,
+        awaiting: false,
     },
     {
         id: 2,
@@ -20,20 +21,23 @@ const Portfolio = () => {
         src: movieRecommend,
         href: 'https://github.com/kevinw8765/MovieSystem',
         finished: true,
+        awaiting: false,
     },
     {
         id: 3,
         title: 'Inventory Management',
         src: inventory,
-        href: 'https://github.com/kevinw8765',
-        finished: false
+        href: 'https://github.com/kevinw8765/pantry-app',
+        finished: false,
+        awaiting: true
     },
     {
         id: 4,
         title: 'Workout App',
         src: workout,
         href: 'https://github.com/kevinw8765/workout-app',
-        finished: false
+        finished: false,
+        awaiting: true
     },
     
   ]
@@ -51,18 +55,21 @@ const Portfolio = () => {
 
 
             <div className = "grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-                {portfolios.map(({id, title, src, href, finished}) => (
+                {portfolios.map(({id, title, src, href, finished, awaiting}) => (
                         <div key = {id} className = "shadow-md shadow-gray-600 rounded-lg">
                             <div className = "text-center text-yellow-300 p-4">{title}</div>
                             <img src = {src} alt = "" className = "rounded-md hover:scale-105 duration-200 max-h-[200px] w-full"/>
                             <div className = "flex items-center justify-center">
                                 <button className = "w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                                 {finished ?
-                                    <a target = '_blank' rel = "noreferrer" href = {href} className='text-green-500'>
+                                    (<a target = '_blank' rel = "noreferrer" href = {href} className='text-green-500'>
                                         Code
-                                    </a> : <p className = "text-red-500">In Progress</p>
+                                    </a>) : 
+                                    awaiting ? ( <a target = '_blank' rel = "noreferrer" href = {href} className='text-yellow-500'>
+                                        Developing
+                                    </a>) : (<p className = "text-red-500">In Progress</p>
+                                    )
                                 }
-                                    
                                 </button>
                                 
                             </div>
