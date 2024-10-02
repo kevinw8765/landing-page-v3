@@ -32,7 +32,7 @@ const Portfolio = () => {
         id: 4,
         title: 'Workout App',
         src: workout,
-        href: 'https://github.com/kevinw8765',
+        href: 'https://github.com/kevinw8765/workout-app',
         finished: false
     },
     
