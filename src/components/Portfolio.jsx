@@ -4,6 +4,7 @@ import movieRecommend from '../assets/portfolio/movie-recommend.png'
 import inventory from '../assets/portfolio/inventory.png'
 import workout from '../assets/portfolio/workout.jpg'
 import waterslap from '../assets/portfolio/waterslap.png'
+import sleep from '../assets/portfolio/sleep.png'
 
 const Portfolio = () => {
 
@@ -46,6 +47,14 @@ const Portfolio = () => {
         src: waterslap,
         href: 'https://github.com/kevinw8765/waterslap',
         finished: true,
+        awaiting: true
+    },
+    {
+        id: 6,
+        title: 'Sleep Sounds',
+        src: sleep,
+        href: 'https://github.com/kevinw8765/sleep-sounds',
+        finished: false,
         awaiting: true
     },
     
