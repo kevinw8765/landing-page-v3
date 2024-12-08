@@ -3,6 +3,7 @@ import finance from '../assets/portfolio/finance.png'
 import movieRecommend from '../assets/portfolio/movie-recommend.png'
 import inventory from '../assets/portfolio/inventory.png'
 import workout from '../assets/portfolio/workout.jpg'
+import waterslap from '../assets/portfolio/waterslap.png'
 
 const Portfolio = () => {
 
@@ -37,6 +38,14 @@ const Portfolio = () => {
         src: workout,
         href: 'https://github.com/kevinw8765/workout-app',
         finished: false,
+        awaiting: true
+    },
+    {
+        id: 5,
+        title: 'ROBLOX: Waterslap',
+        src: waterslap,
+        href: 'https://github.com/kevinw8765/waterslap',
+        finished: true,
         awaiting: true
     },
     
