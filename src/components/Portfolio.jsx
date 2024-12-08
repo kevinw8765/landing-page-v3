@@ -42,7 +42,7 @@ const Portfolio = () => {
     },
     {
         id: 5,
-        title: 'ROBLOX: Waterslap',
+        title: 'Waterslap',
         src: waterslap,
         href: 'https://github.com/kevinw8765/waterslap',
         finished: true,
