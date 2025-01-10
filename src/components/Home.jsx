@@ -4,7 +4,8 @@ import kokushibo from "../assets/kokushibo.png"
 import domo from "../assets/domo.jpeg"
 import demonslayer from "../assets/demonslayer.jpeg"
 import noodles from "../assets/noodles.jpeg"
-
+import celebi from '../assets/celebi.jpeg'
+import cake from '../assets/cake.jpeg'
 
 import { FaArrowRight } from "react-icons/fa";
 import {Link} from 'react-scroll'
@@ -19,7 +20,7 @@ const Home = () => {
         src: HeroImage
     },
     {
-        src: kokushibo
+        src: cake
     },
     {
         src: domo
