@@ -13,6 +13,10 @@ import tailwind from "../assets/tailwind.png"
 import sql from "../assets/sqlite3.png"
 import swiftui from "../assets/swiftui.png"
 import lua from "../assets/lua.png"
+import pandas2 from '../assets/pandas2.png'
+import r from '../assets/RLogo.png'
+import flaskLogo from '../assets/flask.png'
+
 
 const Experience = () => {
 
@@ -93,15 +97,32 @@ const Experience = () => {
         id: 13,
         src: swiftui,
         title: "SwiftUI",
-        style: "shadow-blue-300"
+        style: "shadow-blue-500"
     },
     {
         id: 14,
         src: lua,
         title: "Lua",
+        style: "shadow-blue-700"
+    },
+    {
+        id: 15,
+        src: flaskLogo,
+        title: "Flask",
+        style: "shadow-teal-300"
+    },
+    {
+        id: 16,
+        src: pandas2,
+        title: "Pandas",
         style: "shadow-blue-300"
     },
-    
+    {
+        id: 17,
+        src: r,
+        title: "R",
+        style: "shadow-blue-400"
+    },
     
   ]
   return (
