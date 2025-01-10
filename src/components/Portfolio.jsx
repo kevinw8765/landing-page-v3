@@ -4,7 +4,6 @@ import movieRecommend from '../assets/portfolio/movie-recommend.png'
 import inventory from '../assets/portfolio/inventory.png'
 import workout from '../assets/portfolio/workout.jpg'
 import waterslap from '../assets/portfolio/waterslap.png'
-import sleep from '../assets/portfolio/sleep.png'
 import alarm from '../assets/portfolio/alarm.png'
 
 const Portfolio = () => {
