@@ -5,6 +5,7 @@ import inventory from '../assets/portfolio/inventory.png'
 import workout from '../assets/portfolio/workout.jpg'
 import waterslap from '../assets/portfolio/waterslap.png'
 import sleep from '../assets/portfolio/sleep.png'
+import alarm from '../assets/portfolio/alarm.png'
 
 const Portfolio = () => {
 
@@ -52,7 +53,7 @@ const Portfolio = () => {
     {
         id: 6,
         title: 'Sleep Sounds',
-        src: sleep,
+        src: alarm,
         href: 'https://github.com/kevinw8765/sleep-sounds',
         finished: false,
         awaiting: true
