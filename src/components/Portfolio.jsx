@@ -43,9 +43,9 @@ const Portfolio = () => {
     },
     {
         id: 5,
-        title: 'Waterslap',
+        title: 'Aqua Arena',
         src: waterslap,
-        href: 'https://github.com/kevinw8765/waterslap',
+        href: 'https://github.com/kevinw8765/aqua-arena',
         finished: true,
         awaiting: true
     },
