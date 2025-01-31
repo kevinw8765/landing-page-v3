@@ -24,9 +24,6 @@ const Home = () => {
         src: iceknight
     },
     {
-        src: goldenmew
-    },
-    {
         src: cake
     },
     {
@@ -37,6 +34,9 @@ const Home = () => {
     },
     {
         src: demonslayer
+    },
+    {
+        src: goldenmew
     },
   ]
 
