@@ -3,6 +3,8 @@ import HeroImage from "../assets/heroImage.png"
 import domo from "../assets/domo.jpeg"
 import demonslayer from "../assets/demonslayer.jpeg"
 import noodles from "../assets/noodles.jpeg"
+import goldenmew from '../assets/goldenmew.jpeg'
+import iceknight from '../assets/iceknight.jpeg'
 
 import cake from '../assets/cake.jpeg'
 
@@ -17,6 +19,12 @@ const Home = () => {
   const slides = [
     {
         src: HeroImage
+    },
+    {
+        src: iceknight
+    },
+    {
+        src: goldenmew
     },
     {
         src: cake
