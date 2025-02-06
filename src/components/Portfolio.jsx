@@ -3,7 +3,7 @@ import finance from '../assets/portfolio/finance.png'
 import movieRecommend from '../assets/portfolio/movie-recommend.png'
 import inventory from '../assets/portfolio/inventory.png'
 import workout from '../assets/portfolio/workout.jpg'
-import waterslap from '../assets/portfolio/waterslap.png'
+import aquaArena from '../assets/portfolio/water-dragon.jpg'
 import alarm from '../assets/portfolio/alarm.png'
 
 const Portfolio = () => {
@@ -44,7 +44,7 @@ const Portfolio = () => {
     {
         id: 5,
         title: 'Aqua Arena',
-        src: waterslap,
+        src: aquaArena,
         href: 'https://github.com/kevinw8765/aqua-arena',
         finished: true,
         awaiting: true
