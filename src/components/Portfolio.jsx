@@ -11,7 +11,7 @@ const Portfolio = () => {
   const portfolios = [
     {
         id: 1,
-        title: 'Finance App',
+        title: 'Finance Hub',
         src: finance,
         href: 'https://github.com/kevinw8765/finance-app',
         finished: true,
@@ -35,7 +35,7 @@ const Portfolio = () => {
     },
     {
         id: 4,
-        title: 'Workout App',
+        title: 'Fitness Tracker',
         src: workout,
         href: 'https://github.com/kevinw8765/workout-app',
         finished: false,
