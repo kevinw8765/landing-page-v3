@@ -109,8 +109,7 @@ const Portfolio = () => {
                 {portfolios.map(({id, title, src, href, finished, awaiting}) => (
                         <div key = {id} className = "shadow-md shadow-gray-600 rounded-lg">
                             <div className = "text-center text-yellow-300 p-4">{title}</div>
-                            <img src = {src} alt = "" className = "rounded-md hover:scale-105 duration-200 max-h-[200px] w-full"/>
-                            <div className = "flex items-center justify-center">
+                            {src && <img src={src} alt="" className="rounded-md hover:scale-105 duration-200 h-44 w-full" />}                            <div className = "flex items-center justify-center">
                                 <button className = "w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                                 {finished ?
                                     (<a target = '_blank' rel = "noreferrer" href = {href} className='text-green-500'>
