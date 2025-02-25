@@ -57,6 +57,39 @@ const Portfolio = () => {
         finished: false,
         awaiting: true
     },
+    {
+        id: 7,
+        title: 'Realtime ChatApp',
+        src: '',
+        href: 'https://github.com/kevinw8765',
+        finished: false,
+        awaiting: false
+    },
+    {
+        id: 8,
+        title: 'Netflix Clone',
+        src: '',
+        href: 'https://github.com/kevinw8765',
+        finished: false,
+        awaiting: false
+    },
+    {
+        id: 9,
+        title: 'E-commerce Store',
+        src: '',
+        href: 'https://github.com/kevinw8765',
+        finished: false,
+        awaiting: false
+    },
+    {
+        id: 10,
+        title: 'SaaS Code Editor',
+        src: '',
+        href: 'https://github.com/kevinw8765',
+        finished: false,
+        awaiting: false
+    },
+    
     
   ]
   return (
