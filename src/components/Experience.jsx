@@ -16,28 +16,34 @@ import lua from "../assets/lua.png"
 import pandas2 from '../assets/pandas2.png'
 import r from '../assets/RLogo.png'
 import flaskLogo from '../assets/flask.png'
-
+import mongodb from '../assets/mongodb.png'
+import android from '../assets/android_java.png'
+import expressjs from '../assets/express.png'
+import figmaa from '../assets/figma.png'
+import matplotlibb from '../assets/matplotlib.png'
+import nextjss from '../assets/nextjs.png'
+import numpyy from '../assets/numpy.png'
 
 const Experience = () => {
 
   const techs = [
     {
         id: 1,
-        src: c,
-        title: "C",
+        src: python3,
+        title: "Python",
         style: "shadow-blue-500"
     },
     {
         id: 2,
-        src: css,
-        title: "CSS",
-        style: "shadow-blue-500"
+        src: java,
+        title: "Java",
+        style: "shadow-orange-500"
     },
     {
         id: 3,
-        src: github,
-        title: "GitHub",
-        style: "shadow-white"
+        src: javascript,
+        title: "JavaScript",
+        style: "shadow-yellow-500"
     },
     {
         id: 4,
@@ -47,15 +53,15 @@ const Experience = () => {
     },
     {
         id: 5,
-        src: java,
-        title: "Java",
-        style: "shadow-orange-500"
+        src: css,
+        title: "CSS",
+        style: "shadow-blue-500"
     },
     {
         id: 6,
-        src: javascript,
-        title: "JavaScript",
-        style: "shadow-yellow-500"
+        src: reactImage,
+        title: "React",
+        style: "shadow-teal-500"
     },
     {
         id: 7,
@@ -65,64 +71,106 @@ const Experience = () => {
     },
     {
         id: 8,
-        src: python3,
-        title: "Python",
-        style: "shadow-blue-500"
+        src: expressjs,
+        title: "ExpressJS",
+        style: "shadow-yellow-300"
     },
     {
         id: 9,
-        src: pytorch,
-        title: "PyTorch",
-        style: "shadow-orange-500"
+        src: nextjss,
+        title: "NextJS",
+        style: "shadow-white"
     },
     {
         id: 10,
-        src: reactImage,
-        title: "React",
-        style: "shadow-teal-500"
-    },
-    {
-        id: 11,
-        src: tailwind,
-        title: "Tailwind",
-        style: "shadow-blue-300"
-    },
-    {
-        id: 12,
-        src: sql,
-        title: "SQL",
-        style: "shadow-blue-300"
-    },
-    {
-        id: 13,
-        src: swiftui,
-        title: "SwiftUI",
-        style: "shadow-blue-500"
-    },
-    {
-        id: 14,
-        src: lua,
-        title: "Lua",
-        style: "shadow-blue-700"
-    },
-    {
-        id: 15,
         src: flaskLogo,
         title: "Flask",
         style: "shadow-teal-300"
     },
     {
-        id: 16,
+        id: 11,
         src: pandas2,
         title: "Pandas",
         style: "shadow-blue-300"
     },
     {
+        id: 12,
+        src: numpyy,
+        title: "NumPy",
+        style: "shadow-blue-400"
+    },
+    {
+        id: 13,
+        src: matplotlibb,
+        title: "Matplotlib",
+        style: "shadow-blue-400"
+    },
+    {
+        id: 14,
+        src: pytorch,
+        title: "PyTorch",
+        style: "shadow-orange-500"
+    },
+    {
+        id: 15,
+        src: sql,
+        title: "SQL",
+        style: "shadow-blue-300"
+    },
+    {
+        id: 16,
+        src: mongodb,
+        title: "MongoDB",
+        style: "shadow-green-400"
+    },
+    {
         id: 17,
+        src: c,
+        title: "C",
+        style: "shadow-blue-500"
+    },
+    {
+        id: 18,
+        src: lua,
+        title: "Lua",
+        style: "shadow-blue-700"
+    },
+    {
+        id: 19,
         src: r,
         title: "R",
         style: "shadow-blue-400"
     },
+    {
+        id: 20,
+        src: swiftui,
+        title: "SwiftUI",
+        style: "shadow-blue-500"
+    },
+    {
+        id: 21,
+        src: android,
+        title: "JavaFX + Java Android",
+        style: "shadow-green-700"
+    },
+    {
+        id: 22,
+        src: tailwind,
+        title: "Tailwind",
+        style: "shadow-blue-300"
+    },
+    {
+        id: 23,
+        src: figmaa,
+        title: "Figma",
+        style: "shadow-red-600"
+    },
+    {
+        id: 24,
+        src: github,
+        title: "GitHub",
+        style: "shadow-white"
+    }
     
   ]
   return (

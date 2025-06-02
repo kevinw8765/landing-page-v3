@@ -66,8 +66,13 @@ const Home = () => {
         
  
                  <p className = "text-gray-400 py-6 max-w-md solid border-x-4 border-gray-500 p-4">I am a student at Rutgers University looking to gain experience in building and designing software. 
-                    I am interested in web development technologies
-                     like React, Tailwind CSS, and JavaScript.</p>
+                    I am particularly interested in software engineering, data science, AI/ML, app and web development roles. 
+                    My top three strongest programming languages are: Python, Java, and JavaScript.
+                    <br></br>
+                    <br></br>
+                    Feel free to contact me at kevinw8765@gmail.com if you have questions!
+                </p>
+                
                 <div>
                     <Link to ="portfolio" smooth duration = {500} className = "group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-700 to-red-700 cursor-pointer">
                         Portfolio

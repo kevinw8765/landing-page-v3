@@ -15,14 +15,14 @@ const About = () => {
 
                 <p className = "text-xl text-gray-400 mt-20">
                 Hi, my name is Kevin Wong, and I'm currently studying Computer Science and Data Science at RU.
-                I am passionate about working in the tech industry and actively seeking internship opportunities in software development or data analytics. 
+                I am passionate about working in the tech industry and actively seeking internship opportunities in software development or data science. 
                  </p>
 
                 <br/>
 
                 <p className = "text-xl text-gray-400">
                 With experience in technologies such as Python, Java, JavaScript, SQL, C, etc. and frameworks like React and Next.js,
-                I am eager to apply my skills and contribute to innovative projects.
+                I am eager to apply my skills and contribute to innovative projects. Learn more about my skills below!
                 </p>
                 <img src = {scarletknight} alt = "Rutgers" className="mx-auto max-h-[500px] max-w-[500px] mt-10 rounded-2xl"/>
 

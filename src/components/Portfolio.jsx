@@ -5,6 +5,7 @@ import inventory from '../assets/portfolio/inventory.png'
 import workout from '../assets/portfolio/workout.jpg'
 import aquaArena from '../assets/portfolio/water-dragon.jpg'
 import alarm from '../assets/portfolio/alarm.png'
+import ping from '../assets/portfolio/ping.png'
 
 const Portfolio = () => {
 
@@ -59,11 +60,11 @@ const Portfolio = () => {
     },
     {
         id: 7,
-        title: 'Realtime ChatApp',
-        src: '',
-        href: 'https://github.com/kevinw8765',
+        title: 'Ping Live',
+        src: ping,
+        href: 'https://github.com/kevinw8765/ping-chat-app',
         finished: false,
-        awaiting: false
+        awaiting: true  
     },
     {
         id: 8,
