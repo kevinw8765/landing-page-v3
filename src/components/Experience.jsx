@@ -23,6 +23,8 @@ import figmaa from '../assets/figma.png'
 import matplotlibb from '../assets/matplotlib.png'
 import nextjss from '../assets/nextjs.png'
 import numpyy from '../assets/numpy.png'
+import reactNative from '../assets/reactNative.jpeg'
+import expo from "../assets/expo.png"
 
 const Experience = () => {
 
@@ -170,7 +172,19 @@ const Experience = () => {
         src: github,
         title: "GitHub",
         style: "shadow-white"
-    }
+    },
+    {
+        id: 26,
+        src: reactNative,
+        title: "React Native",
+        style: "shadow-blue-400"
+    },
+    {
+        id: 27,
+        src: expo,
+        title: "Expo",
+        style: "shadow-white"
+    },
     
   ]
   return (

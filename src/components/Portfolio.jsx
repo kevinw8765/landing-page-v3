@@ -90,6 +90,14 @@ const Portfolio = () => {
         finished: false,
         awaiting: false
     },
+    {
+        id: 11,
+        title: 'Spotlight',
+        src: '',
+        href: 'https://github.com/kevinw8765/spotlight',
+        finished: false,
+        awaiting: true
+    },
     
     
   ]
