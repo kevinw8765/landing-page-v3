@@ -174,13 +174,13 @@ const Experience = () => {
         style: "shadow-white"
     },
     {
-        id: 26,
+        id: 25,
         src: reactNative,
         title: "React Native",
         style: "shadow-blue-400"
     },
     {
-        id: 27,
+        id: 26,
         src: expo,
         title: "Expo",
         style: "shadow-white"
