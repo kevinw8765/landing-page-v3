@@ -62,7 +62,7 @@ const Home = () => {
         <div className = "max-w-screen-lg mx-auto  flex flex-col items-center h-full justify-center px-4 md:flex-row gap-3">
             <div className='flex flex-col gap-5'>
         
-                <h2 className = "text-4xl text-rotate sm:text-7xl font-bold">I'm an Aspiring Software Engineer</h2>
+                <h2 className = "text-4xl text-rotate sm:text-7xl font-bold">Hi! I'm a Software Engineer</h2>
         
  
                  <p className = "text-gray-400 py-6 max-w-md solid border-x-4 border-gray-500 p-4">I am a student at Rutgers University looking to gain experience in building and designing software. 

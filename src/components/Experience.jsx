@@ -25,6 +25,8 @@ import nextjss from '../assets/nextjs.png'
 import numpyy from '../assets/numpy.png'
 import reactNative from '../assets/reactNative.jpeg'
 import expo from "../assets/expo.png"
+import ibmer from '../assets/ibm-building.jpg' 
+import kenvuer from '../assets/00-Kenvue-Sculpture.jpg'
 
 const Experience = () => {
 
@@ -196,6 +198,20 @@ const Experience = () => {
                 <p className = "text-4xl font-bold border-b-4 inline border-gray-500">
                     Experience
                 </p>
+                <div className="flex justify-center gap-10 mt-10">
+                    <img
+                        src={kenvuer}
+                        alt="Kenvue"
+                        className="max-h-[200px] max-w-[200px] rounded-2xl"
+                    />
+                    <img
+                        src={ibmer}
+                        alt="IBM"
+                        className="max-h-[200px] max-w-[200px] rounded-2xl"
+                    />
+                </div>
+                <p className = "py-6 text-gray-400">Industry Experience: Kenvue/J&J, IBM</p>
+                
             </div>
 
             <div className = "w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">

@@ -14,7 +14,7 @@ const About = () => {
                 </p>
 
                 <p className = "text-xl text-gray-400 mt-20">
-                Hi, my name is Kevin Wong, and I'm currently studying Computer Science and Data Science at RU.
+                I'm Kevin Wong, and I'm currently studying Computer Science and Data Science at RU.
                 I am passionate about working in the tech industry and actively seeking internship opportunities in software development or data science. 
                  </p>
 
