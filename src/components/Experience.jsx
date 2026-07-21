@@ -27,6 +27,8 @@ import reactNative from '../assets/reactNative.jpeg'
 import expo from "../assets/expo.png"
 import ibmer from '../assets/ibm-building.jpg' 
 import kenvuer from '../assets/00-Kenvue-Sculpture.jpg'
+import VFAANG from "../assets/visa-fifa-world-cup.png"
+import amazonian from "../assets/amazonoffice.jpg"
 
 const Experience = () => {
 
@@ -209,8 +211,18 @@ const Experience = () => {
                         alt="IBM"
                         className="max-h-[200px] max-w-[200px] rounded-2xl"
                     />
+                    <img 
+                        src={VFAANG}
+                        alt="Visa"
+                        className="max-h-[200px] max-w-[200px] rounded-2xl"
+                    />
+                    <img 
+                        src={amazonian}
+                        alt="Amazon"
+                        className="max-h-[200px] max-w-[200px] rounded-2xl"
+                    />
                 </div>
-                <p className = "py-6 text-gray-400">Industry Experience: Kenvue/J&J, IBM</p>
+                <p className = "py-6 text-gray-400">Industry Experience: Kenvue/J&J, IBM, Visa, Amazon</p>
                 
             </div>
 

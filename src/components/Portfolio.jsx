@@ -98,6 +98,14 @@ const Portfolio = () => {
         finished: false,
         awaiting: true
     },
+    {
+        id: 12,
+        title: 'Claude Project',
+        src: '',
+        href: 'https://github.com/kevinw8765/',
+        finished: false,
+        awaiting: false
+    },
     
     
   ]
